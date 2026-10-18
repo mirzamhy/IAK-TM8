@@ -14,11 +14,11 @@ export async function login(_prev: LoginState, formData: FormData): Promise<Logi
   if (!user) return { error: 'Username atau password salah.', username }
 
   await createSession(user)
-  const next = String(formData.get('next') ?? '/')
-  redirect(next.startsWith('/') && !next.startsWith('//') ? next : '/')
+  const next = String(formData.get('next') ?? '/dashboard')
+  redirect(next.startsWith('/') && !next.startsWith('//') ? next : '/dashboard')
 }
 
 export async function logout() {
   await deleteSession()
-  redirect('/login')
+  redirect('/')
 }

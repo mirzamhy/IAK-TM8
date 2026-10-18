@@ -68,6 +68,6 @@ export async function getCurrentUser(): Promise<SessionUser> {
 
 export async function requireAdmin(): Promise<SessionUser> {
   const user = await getCurrentUser()
-  if (user.role !== 'admin') redirect('/?akses=ditolak')
+  if (user.role !== 'admin') redirect('/dashboard?akses=ditolak')
   return user
 }

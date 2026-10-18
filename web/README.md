@@ -10,6 +10,7 @@ Website dashboard untuk data warehouse hasil ETL Pentaho (`../pentaho_sederhana/
 | Bahasa | TypeScript |
 | Tampilan | Tailwind CSS 4, mode terang dan gelap |
 | Grafik | Apache ECharts 6 (tooltip, klik untuk cross-filter) |
+| Peta 3D | three.js + React Three Fiber + drei |
 | Data | `node:sqlite` bawaan Node 24, membaca warehouse secara read-only |
 | Login | Session JWT (jose) di cookie httpOnly, password bcrypt, `proxy.ts` mengunci semua halaman |
 
@@ -22,7 +23,7 @@ npm install
 npm run dev
 ```
 
-Buka http://localhost:3000. Untuk mode produksi: `npm run build` lalu `npm start`.
+Buka http://localhost:3000 untuk landing page publik; dashboard ada di http://localhost:3000/dashboard. Untuk mode produksi: `npm run build` lalu `npm start`.
 
 Akun demo (dibuat otomatis di `data/users.sqlite` saat login pertama):
 
@@ -37,6 +38,7 @@ Untuk pemakaian di luar kelas, salin `.env.example` menjadi `.env.local` dan isi
 
 | Halaman | Isi |
 | --- | --- |
+| Landing (`/`, publik) | Peta Indonesia 3D dengan balok output per provinsi (pilih tahun, hover), angka kunci, sumber data, alur ETL, teknologi |
 | Ringkasan | KPI nasional dan perubahan dari tahun sebelumnya, tren nilai produksi, usaha dan tenaga kerja, 10 provinsi teratas |
 | Provinsi | Peringkat 38 provinsi untuk 9 indikator; klik batang untuk melihat tren provinsi tersebut per skala |
 | Mikro vs Kecil | Komposisi tiap indikator, produktivitas per tahun, tabel angka nasional |
@@ -45,6 +47,10 @@ Untuk pemakaian di luar kelas, salin `.env.example` menjadi `.env.local` dan isi
 
 Setiap halaman analisis memiliki panel **Temuan** yang dihitung otomatis dari data yang sedang difilter.
 
+## Peta provinsi
+
+Batas provinsi dari [Indonesia GeoJSON & TopoJSON Maps (38 Provinces)](https://github.com/denyherianto/indonesia-geojson-topojson-maps-with-38-provinces) oleh denyherianto, lisensi [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). File sumber ada di `scripts/source/`; `node scripts/build-geo.mjs` menyederhanakannya, memberi kode BPS, dan menulis `public/geo/provinsi.json`.
+
 ## Struktur
 
 ```
@@ -52,7 +58,8 @@ src/
   proxy.ts               cek session sebelum halaman dirender
   app/
     login/               halaman login (server action + useActionState)
-    (dash)/              halaman yang butuh login, berbagi sidebar
+    page.tsx             landing page publik
+    dashboard/           halaman yang butuh login, berbagi sidebar
     actions.ts           login dan logout
   lib/
     db.ts                koneksi SQLite warehouse dan akun
@@ -60,4 +67,5 @@ src/
     auth.ts, session.ts  verifikasi password, JWT, Data Access Layer
     metrics.ts           agregasi dan format angka
   components/            chart ECharts, kontrol filter, kartu
+    landing/             navbar, animasi, alur ETL, peta 3D (map/)
 ```

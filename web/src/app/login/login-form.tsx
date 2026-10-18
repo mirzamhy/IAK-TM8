@@ -5,7 +5,7 @@ import { useActionState } from 'react'
 import { login } from '@/app/actions'
 
 export function LoginForm() {
-  const next = useSearchParams().get('next') ?? '/'
+  const next = useSearchParams().get('next') ?? '/dashboard'
   const [state, action, pending] = useActionState(login, undefined)
 
   return (

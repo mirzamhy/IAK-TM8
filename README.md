@@ -35,7 +35,7 @@ npm install
 npm run dev
 ```
 
-Buka http://localhost:3000 dan masuk dengan akun demo `admin` / `admin123`. Detail teknologi dan halaman ada di `web/README.md`.
+Buka http://localhost:3000 untuk landing page dengan peta Indonesia 3D, lalu klik **Masuk dashboard** dan gunakan akun demo `admin` / `admin123`. Detail teknologi dan halaman ada di `web/README.md`.
 
 ## Menjalankan ETL Pentaho (versi sederhana)
 

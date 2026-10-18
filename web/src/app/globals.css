@@ -88,3 +88,5 @@ body {
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
+
+@keyframes flow { to { stroke-dashoffset: -28; } }

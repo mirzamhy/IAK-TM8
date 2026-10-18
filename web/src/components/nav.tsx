@@ -12,11 +12,11 @@ const ICONS: Record<string, string> = {
 }
 
 const ITEMS = [
-  { href: '/', label: 'Ringkasan', icon: 'home' },
-  { href: '/provinsi', label: 'Provinsi', icon: 'map' },
-  { href: '/skala', label: 'Mikro vs Kecil', icon: 'split' },
-  { href: '/data', label: 'Eksplorasi data', icon: 'table' },
-  { href: '/etl', label: 'Status ETL', icon: 'flow', admin: true },
+  { href: '/dashboard', label: 'Ringkasan', icon: 'home' },
+  { href: '/dashboard/provinsi', label: 'Provinsi', icon: 'map' },
+  { href: '/dashboard/skala', label: 'Mikro vs Kecil', icon: 'split' },
+  { href: '/dashboard/data', label: 'Eksplorasi data', icon: 'table' },
+  { href: '/dashboard/etl', label: 'Status ETL', icon: 'flow', admin: true },
 ]
 
 export function Nav({ isAdmin }: { isAdmin: boolean }) {
@@ -24,7 +24,7 @@ export function Nav({ isAdmin }: { isAdmin: boolean }) {
   return (
     <nav className="flex flex-wrap gap-0.5 md:flex-col" aria-label="Navigasi utama">
       {ITEMS.filter((i) => !i.admin || isAdmin).map((i) => {
-        const active = i.href === '/' ? path === '/' : path.startsWith(i.href)
+        const active = i.href === '/dashboard' ? path === '/dashboard' : path.startsWith(i.href)
         return (
           <Link
             key={i.href}

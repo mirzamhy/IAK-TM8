@@ -29,7 +29,54 @@ export async function getRows(): Promise<Row[]> {
   }))
 }
 
-const LEVELS: { title: string; tables: [string, string][] }[] = [
+export type LandingData = {
+  years: number[]
+  /** kode BPS → tahun → nilai output Mikro+Kecil (juta Rp); null bila belum dilaporkan terpisah. */
+  output: Record<string, Record<number, number | null>>
+  names: Record<string, string>
+  latest: { tahun: number; usaha: number; tenagaKerja: number; output: number; nilaiTambah: number; provinsi: number }
+  etl: { raw: number; staging: number; fact: number; files: number }
+}
+
+/** Angka ringkas untuk landing page publik. */
+export async function getLandingData(): Promise<LandingData> {
+  'use cache'
+  cacheLife('hours')
+  const rows = await getRows()
+  const years = [...new Set(rows.map((r) => r.tahun))].sort((a, b) => a - b)
+  const output: LandingData['output'] = {}
+  const names: LandingData['names'] = {}
+  for (const r of rows) {
+    if (r.nasional) continue
+    names[r.kode] = r.provinsi
+    const cell = (output[r.kode] ??= {})
+    // Wilayah yang belum dilaporkan terpisah (Papua 2021–2023) tercatat 0 atau kosong di BPS.
+    const reported = (r.jumlah_perusahaan ?? 0) > 0
+    cell[r.tahun] = reported ? (cell[r.tahun] ?? 0) + (r.nilai_output ?? 0) : (cell[r.tahun] ?? null)
+  }
+  const last = years.at(-1)!
+  const nat = rows.filter((r) => r.nasional && r.tahun === last)
+  const sum = (k: 'jumlah_perusahaan' | 'tenaga_kerja' | 'nilai_output' | 'nilai_tambah') => nat.reduce((s, r) => s + (r[k] ?? 0), 0)
+  const status = await getEtlStatus()
+  const count = (name: string) => status.levels.flatMap((l) => l.tables).find((t) => t.name === name)?.count ?? 0
+  return {
+    years,
+    output,
+    names,
+    latest: {
+      tahun: last, usaha: sum('jumlah_perusahaan'), tenagaKerja: sum('tenaga_kerja'), output: sum('nilai_output'),
+      nilaiTambah: sum('nilai_tambah'), provinsi: Object.keys(names).length,
+    },
+    etl: {
+      raw: status.levels[0].tables.reduce((s, t) => s + t.count, 0),
+      staging: count('stg_manufaktur'),
+      fact: count('fact_manufaktur'),
+      files: status.files,
+    },
+  }
+}
+
+const LEVELS:{ title: string; tables: [string, string][] }[] = [
   { title: 'Level 1 · Raw', tables: [
     ['raw_csv', 'CSV — jumlah usaha (440), nilai output (443)'],
     ['raw_excel', 'XLSX — tenaga kerja (441), pengeluaran TK (446)'],
