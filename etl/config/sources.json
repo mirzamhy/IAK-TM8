@@ -1,0 +1,45 @@
+{
+  "year": 2025,
+  "datasets": [
+    {
+      "id": 440,
+      "column": "jumlah_perusahaan",
+      "unit": "Unit",
+      "file": "raw_native/440_jumlah_perusahaan_2025.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQwIzI%3D/jumlah-perusahaan-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file"
+    },
+    {
+      "id": 441,
+      "column": "tenaga_kerja",
+      "unit": "Orang",
+      "file": "raw_native/441_tenaga_kerja_2025.xlsx",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQxIzI%3D/jumlah-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file"
+    },
+    {
+      "id": 442,
+      "column": "nilai_input_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_json/442_nilai_input_2025.json",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQyIzI%3D/nilai-input-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "method": "Scraping tabel yang terlihat melalui MCP browser; bukan respons WebAPI"
+    },
+    {
+      "id": 443,
+      "column": "nilai_output_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_native/443_nilai_output_2025.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQzIzI%3D/nilai-output-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file"
+    },
+    {
+      "id": 446,
+      "column": "pengeluaran_tenaga_kerja_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_native/446_pengeluaran_tenaga_kerja_2025.xlsx",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQ2IzI%3D/pengeluaran-untuk-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi-juta-rupiah.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file"
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "datasets": [
+    {
+      "id": 440,
+      "year": 2021,
+      "file": "raw_native\\440_jumlah_perusahaan_2021.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQwIzI%3D/jumlah-perusahaan-menurut-provinsi.html",
+      "last_updated": "16 September 2026",
+      "retrieved_date": "2026-10-18",
+      "method": "Unduhan asli CSV BPS melalui MCP browser; tahun dan tabel diperiksa sebelum unduh",
+      "sha256": "9967dd150da941058fb6a0bb6ceb44b81830c22e1614ff9dbcfe03a4610704dc",
+      "row_count": 39,
+      "new_papua_rows": [
+        [
+          "PAPUA BARAT DAYA",
+          "-",
+          "-"
+        ],
+        [
+          "PAPUA SELATAN",
+          "-",
+          "-"
+        ],
+        [
+          "PAPUA TENGAH",
+          "-",
+          "-"
+        ],
+        [
+          "PAPUA PEGUNUNGAN",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "id": 440,
+      "year": 2022,
+      "file": "raw_native\\440_jumlah_perusahaan_2022.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQwIzI%3D/jumlah-perusahaan-menurut-provinsi.html",
+      "last_updated": "16 September 2026",
+      "retrieved_date": "2026-10-18",
+      "method": "Unduhan asli CSV BPS melalui MCP browser; tahun dan tabel diperiksa sebelum unduh",
+      "sha256": "ccd6b2bd1d5063b317d81c2acfe82d4829334631d7d1a8b9e23c21e28d7ff4f1",
+      "row_count": 39,
+      "new_papua_rows": [
+        [
+          "PAPUA BARAT DAYA",
+          "0",
+          "0"
+        ],
+        [
+          "PAPUA SELATAN",
+          "0",
+          "0"
+        ],
+        [
+          "PAPUA TENGAH",
+          "0",
+          "0"
+        ],
+        [
+          "PAPUA PEGUNUNGAN",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "id": 440,
+      "year": 2023,
+      "file": "raw_native\\440_jumlah_perusahaan_2023.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQwIzI%3D/jumlah-perusahaan-menurut-provinsi.html",
+      "last_updated": "16 September 2026",
+      "retrieved_date": "2026-10-18",
+      "method": "Unduhan asli CSV BPS melalui MCP browser; tahun dan tabel diperiksa sebelum unduh",
+      "sha256": "e8fc89335bc734b24a7ede58b659d982191ac7c2ea56854e17c5e928729c2184",
+      "row_count": 39,
+      "new_papua_rows": [
+        [
+          "PAPUA BARAT DAYA",
+          "0",
+          "0"
+        ],
+        [
+          "PAPUA SELATAN",
+          "0",
+          "0"
+        ],
+        [
+          "PAPUA TENGAH",
+          "0",
+          "0"
+        ],
+        [
+          "PAPUA PEGUNUNGAN",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "id": 440,
+      "year": 2024,
+      "file": "raw_native\\440_jumlah_perusahaan_2024.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQwIzI%3D/jumlah-perusahaan-menurut-provinsi.html",
+      "last_updated": "16 September 2026",
+      "retrieved_date": "2026-10-18",
+      "method": "Unduhan asli CSV BPS melalui MCP browser; tahun dan tabel diperiksa sebelum unduh",
+      "sha256": "965f611c8278c95eb1a0999af5d529d2c3c5b0e4f85d45ea18ef36dcc1b2eab3",
+      "row_count": 39,
+      "new_papua_rows": [
+        [
+          "PAPUA BARAT DAYA",
+          "2822",
+          "39"
+        ],
+        [
+          "PAPUA SELATAN",
+          "4911",
+          "20"
+        ],
+        [
+          "PAPUA TENGAH",
+          "3732",
+          "96"
+        ],
+        [
+          "PAPUA PEGUNUNGAN",
+          "552",
+          "35"
+        ]
+      ]
+    },
+    {
+      "id": 440,
+      "year": 2025,
+      "file": "raw_native\\440_jumlah_perusahaan_2025.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQwIzI%3D/jumlah-perusahaan-menurut-provinsi.html",
+      "last_updated": "16 September 2026",
+      "retrieved_date": "2026-10-18",
+      "method": "Unduhan asli CSV BPS melalui MCP browser; tahun dan tabel diperiksa sebelum unduh",
+      "sha256": "adeb11f1521cf6c6cc29c280d427529c1ba1a3dc9fc0a51588de579e68cf7ade",
+      "row_count": 39,
+      "new_papua_rows": [
+        [
+          "PAPUA BARAT DAYA",
+          "3605",
+          "174"
+        ],
+        [
+          "PAPUA SELATAN",
+          "2842",
+          "81"
+        ],
+        [
+          "PAPUA TENGAH",
+          "2524",
+          "139"
+        ],
+        [
+          "PAPUA PEGUNUNGAN",
+          "115",
+          "117"
+        ]
+      ]
+    },
+    {
+      "id": 441,
+      "year": 2024,
+      "file": "raw_native\\441_tenaga_kerja_2024.xlsx",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQxIzI%3D/jumlah-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "last_updated": "16 September 2026",
+      "retrieved_date": "2026-10-18",
+      "method": "Unduhan asli XLSX BPS melalui MCP browser",
+      "sha256": "b7c032b4755ff49c89608a41cb9b00915feaf656ad06fe3f67b22337bbb1eb83",
+      "row_count": 39,
+      "new_papua_rows": [
+        [
+          "PAPUA BARAT DAYA",
+          "5328",
+          "248"
+        ],
+        [
+          "PAPUA SELATAN",
+          "10041",
+          "152"
+        ],
+        [
+          "PAPUA TENGAH",
+          "7505",
+          "586"
+        ],
+        [
+          "PAPUA PEGUNUNGAN",
+          "1046",
+          "242"
+        ]
+      ]
+    },
+    {
+      "id": 441,
+      "year": 2025,
+      "file": "raw_native\\441_tenaga_kerja_2025.xlsx",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQxIzI%3D/jumlah-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "last_updated": "16 September 2026",
+      "retrieved_date": "2026-10-18",
+      "method": "Unduhan asli XLSX BPS melalui MCP browser",
+      "sha256": "1aa85e415ebbc89df01aa3ffbef8e7cb9ad5745799aeae1300eb3713ef46bbff",
+      "row_count": 39,
+      "new_papua_rows": [
+        [
+          "PAPUA BARAT DAYA",
+          "5637",
+          "981"
+        ],
+        [
+          "PAPUA SELATAN",
+          "4183",
+          "564"
+        ],
+        [
+          "PAPUA TENGAH",
+          "4205",
+          "1144"
+        ],
+        [
+          "PAPUA PEGUNUNGAN",
+          "167",
+          "756"
+        ]
+      ]
+    },
+    {
+      "id": 441,
+      "year": 2021,
+      "file": "raw_native\\441_tenaga_kerja_2021.xlsx",
+      "download_path": "C:\\Users\\mirza\\Downloads\\ec8419f6-71a8-4378-ad6d-ee5f6372dc51.tmp",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQxIzI%3D/jumlah-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "last_updated": "16 September 2026",
+      "retrieved_date": "2026-10-18",
+      "method": "Unduhan asli XLSX BPS melalui MCP browser; tahun dan ACEH diperiksa sebelum unduh",
+      "sha256": "eeafafcf8677baa3e8a76dd4d282cbabfaacaf7b54a2be4288835a95107ca133",
+      "row_count": 39,
+      "new_papua_rows": [
+        [
+          "PAPUA BARAT DAYA",
+          "-",
+          "-"
+        ],
+        [
+          "PAPUA SELATAN",
+          "-",
+          "-"
+        ],
+        [
+          "PAPUA TENGAH",
+          "-",
+          "-"
+        ],
+        [
+          "PAPUA PEGUNUNGAN",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "id": 441,
+      "year": 2022,
+      "file": "raw_native\\441_tenaga_kerja_2022.xlsx",
+      "download_path": "C:\\Users\\mirza\\Downloads\\5c6591ae-6be9-4b9a-bfdf-3486e916de30.tmp",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQxIzI%3D/jumlah-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "last_updated": "16 September 2026",
+      "retrieved_date": "2026-10-18",
+      "method": "Unduhan asli XLSX BPS melalui MCP browser; tahun dan ACEH diperiksa sebelum unduh",
+      "sha256": "6c3ceaf99b059744a9c77cf3f921958237ff5b84ad95abfd763dd3f37775a10e",
+      "row_count": 39,
+      "new_papua_rows": [
+        [
+          "PAPUA BARAT DAYA",
+          "0",
+          "0"
+        ],
+        [
+          "PAPUA SELATAN",
+          "0",
+          "0"
+        ],
+        [
+          "PAPUA TENGAH",
+          "0",
+          "0"
+        ],
+        [
+          "PAPUA PEGUNUNGAN",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "id": 441,
+      "year": 2023,
+      "file": "raw_native\\441_tenaga_kerja_2023.xlsx",
+      "download_path": "C:\\Users\\mirza\\Downloads\\31819800-58b9-433a-b6cb-727b07cb9e8e.tmp",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQxIzI%3D/jumlah-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "last_updated": "16 September 2026",
+      "retrieved_date": "2026-10-18",
+      "method": "Unduhan asli XLSX BPS melalui MCP browser; tahun dan ACEH diperiksa sebelum unduh",
+      "sha256": "57a6b9f4b795262f37600d0da6698af0acccee3492c88204e4975b3661a13a94",
+      "row_count": 39,
+      "new_papua_rows": [
+        [
+          "PAPUA BARAT DAYA",
+          "0",
+          "0"
+        ],
+        [
+          "PAPUA SELATAN",
+          "0",
+          "0"
+        ],
+        [
+          "PAPUA TENGAH",
+          "0",
+          "0"
+        ],
+        [
+          "PAPUA PEGUNUNGAN",
+          "0",
+          "0"
+        ]
+      ]
+    }
+  ],
+  "notes": [
+    "Sumber: Diolah dari Hasil Survei Industri Mikro dan Kecil Tahunan, 2013-2014 (KBLI 2009), 2015-2020 (KBLI 2015), 2021-Sekarang (KBLI 2020)",
+    "2023 - Data Provinsi Papua Barat mencakup Provinsi Papua Barat Daya",
+    "2023 - Data Provinsi Papua mencakup Provinsi Papua Selatan, Papua Tengah, dan Papua Pegunungan",
+    "Perbedaan angka digit terakhir disebabkan oleh pembulatan angka",
+    "2021 empat provinsi Papua baru bertanda -; 2022 dan 2023 empat provinsi tersebut bernilai literal 0 pada tabel BPS; raw dipertahankan sebagaimana sumber.",
+    "Brave waitForEvent download tidak mengembalikan event meskipun unduh berhasil. Beberapa unduhan tetap berekstensi .tmp; header, tahun, dan isi diverifikasi sebelum disalin tanpa mengubah byte."
+  ]
+}

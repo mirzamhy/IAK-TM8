@@ -1,0 +1,21 @@
+# arsip duplikat dari folder data
+*.zip
+
+# hasil eksekusi ETL Python (dibuat ulang saat etl.py dijalankan)
+etl/data/01_raw/
+etl/data/02_staging/
+etl/logs/
+__pycache__/
+*.pyc
+
+# hasil eksekusi ETL Pentaho versi job (dibuat ulang saat job dijalankan)
+pentaho/data/
+pentaho/work/
+pentaho/db/
+pentaho/logs/
+pentaho/sql/
+
+# file sementara Spoon
+*.ktr.bak
+*.kjb.bak
+.spoonrc

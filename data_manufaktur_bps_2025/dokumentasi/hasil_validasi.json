@@ -1,0 +1,97 @@
+{
+  "dataset": 5,
+  "tahun": 2025,
+  "provinsi": 38,
+  "skala": [
+    "Mikro",
+    "Kecil"
+  ],
+  "baris_provinsi_skala": 76,
+  "baris_nasional_skala": 2,
+  "nilai_sumber": 390,
+  "duplikat_kunci": 0,
+  "nilai_kosong": 0,
+  "cakupan_identik": true,
+  "agregasi": [
+    {
+      "indikator": "jumlah_perusahaan",
+      "skala": "Mikro",
+      "total_bps": 4148886,
+      "jumlah_provinsi": 4148888,
+      "selisih": 2,
+      "catatan": "Ada selisih agregasi; angka BPS dipertahankan. Sumber menyebut pembulatan digit terakhir."
+    },
+    {
+      "indikator": "jumlah_perusahaan",
+      "skala": "Kecil",
+      "total_bps": 313002,
+      "jumlah_provinsi": 313000,
+      "selisih": -2,
+      "catatan": "Ada selisih agregasi; angka BPS dipertahankan. Sumber menyebut pembulatan digit terakhir."
+    },
+    {
+      "indikator": "tenaga_kerja",
+      "skala": "Mikro",
+      "total_bps": 6917707,
+      "jumlah_provinsi": 6917713,
+      "selisih": 6,
+      "catatan": "Ada selisih agregasi; angka BPS dipertahankan. Sumber menyebut pembulatan digit terakhir."
+    },
+    {
+      "indikator": "tenaga_kerja",
+      "skala": "Kecil",
+      "total_bps": 2566934,
+      "jumlah_provinsi": 2566932,
+      "selisih": -2,
+      "catatan": "Ada selisih agregasi; angka BPS dipertahankan. Sumber menyebut pembulatan digit terakhir."
+    },
+    {
+      "indikator": "nilai_input_juta_rupiah",
+      "skala": "Mikro",
+      "total_bps": 204507891,
+      "jumlah_provinsi": 204507891,
+      "selisih": 0,
+      "catatan": "Sesuai"
+    },
+    {
+      "indikator": "nilai_input_juta_rupiah",
+      "skala": "Kecil",
+      "total_bps": 119866048,
+      "jumlah_provinsi": 119866049,
+      "selisih": 1,
+      "catatan": "Ada selisih agregasi; angka BPS dipertahankan. Sumber menyebut pembulatan digit terakhir."
+    },
+    {
+      "indikator": "nilai_output_juta_rupiah",
+      "skala": "Mikro",
+      "total_bps": 393987498,
+      "jumlah_provinsi": 393987497,
+      "selisih": -1,
+      "catatan": "Ada selisih agregasi; angka BPS dipertahankan. Sumber menyebut pembulatan digit terakhir."
+    },
+    {
+      "indikator": "nilai_output_juta_rupiah",
+      "skala": "Kecil",
+      "total_bps": 229249705,
+      "jumlah_provinsi": 229249705,
+      "selisih": 0,
+      "catatan": "Sesuai"
+    },
+    {
+      "indikator": "pengeluaran_tenaga_kerja_juta_rupiah",
+      "skala": "Mikro",
+      "total_bps": 28162995,
+      "jumlah_provinsi": 28162992,
+      "selisih": -3,
+      "catatan": "Ada selisih agregasi; angka BPS dipertahankan. Sumber menyebut pembulatan digit terakhir."
+    },
+    {
+      "indikator": "pengeluaran_tenaga_kerja_juta_rupiah",
+      "skala": "Kecil",
+      "total_bps": 36677601,
+      "jumlah_provinsi": 36677601,
+      "selisih": 0,
+      "catatan": "Sesuai"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id_indikator_bps": 440,
+    "nama_kolom": "jumlah_perusahaan",
+    "satuan": "Unit",
+    "tahun": 2025,
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQwIzI%3D/jumlah-perusahaan-menurut-provinsi.html",
+    "file": "raw_native/440_jumlah_perusahaan_2025.csv",
+    "format": "csv",
+    "metode": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+    "tanggal_pengambilan_wib": "2026-10-18",
+    "sha256": "adeb11f1521cf6c6cc29c280d427529c1ba1a3dc9fc0a51588de579e68cf7ade",
+    "baris_wilayah": 39,
+    "nilai": 78
+  },
+  {
+    "id_indikator_bps": 441,
+    "nama_kolom": "tenaga_kerja",
+    "satuan": "Orang",
+    "tahun": 2025,
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQxIzI%3D/jumlah-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+    "file": "raw_native/441_tenaga_kerja_2025.xlsx",
+    "format": "xlsx",
+    "metode": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+    "tanggal_pengambilan_wib": "2026-10-18",
+    "sha256": "1aa85e415ebbc89df01aa3ffbef8e7cb9ad5745799aeae1300eb3713ef46bbff",
+    "baris_wilayah": 39,
+    "nilai": 78
+  },
+  {
+    "id_indikator_bps": 442,
+    "nama_kolom": "nilai_input_juta_rupiah",
+    "satuan": "Juta Rupiah",
+    "tahun": 2025,
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQyIzI%3D/nilai-input-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+    "file": "raw_json/442_nilai_input_2025.json",
+    "format": "json",
+    "metode": "Scraping tabel yang terlihat melalui MCP browser; bukan respons WebAPI",
+    "tanggal_pengambilan_wib": "2026-10-18",
+    "sha256": "297c304a38d92fecaf484ab99a5d157201e732a6246803fcd9467c43125f7984",
+    "baris_wilayah": 39,
+    "nilai": 78
+  },
+  {
+    "id_indikator_bps": 443,
+    "nama_kolom": "nilai_output_juta_rupiah",
+    "satuan": "Juta Rupiah",
+    "tahun": 2025,
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQzIzI%3D/nilai-output-menurut-provinsi.html",
+    "file": "raw_native/443_nilai_output_2025.csv",
+    "format": "csv",
+    "metode": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+    "tanggal_pengambilan_wib": "2026-10-18",
+    "sha256": "c315a3fe5ac210d8dd4c34e2e6becc0ec365a23b059f152eea6aa18e503b5a19",
+    "baris_wilayah": 39,
+    "nilai": 78
+  },
+  {
+    "id_indikator_bps": 446,
+    "nama_kolom": "pengeluaran_tenaga_kerja_juta_rupiah",
+    "satuan": "Juta Rupiah",
+    "tahun": 2025,
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQ2IzI%3D/pengeluaran-untuk-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi-juta-rupiah.html",
+    "file": "raw_native/446_pengeluaran_tenaga_kerja_2025.xlsx",
+    "format": "xlsx",
+    "metode": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+    "tanggal_pengambilan_wib": "2026-10-18",
+    "sha256": "235332766db9080d7dd3949db748dc52dde75f33e02968bfe9360703a0df1825",
+    "baris_wilayah": 39,
+    "nilai": 78
+  }
+]

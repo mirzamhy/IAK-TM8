@@ -1,0 +1,284 @@
+{
+  "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQyIzI%3D/nilai-input-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+  "source_organization": "Badan Pusat Statistik",
+  "title": "Nilai Input Industri Skala Mikro dan Kecil Menurut Provinsi",
+  "year": 2024,
+  "unit": "Juta Rupiah",
+  "retrieved_date": "2026-10-18",
+  "method": "Scraping tabel yang terlihat melalui MCP browser; bukan respons WebAPI",
+  "records": [
+    {
+      "provinsi": "ACEH",
+      "mikro": 4000715,
+      "kecil": 1245377,
+      "mikro_source_text": "4.000.715",
+      "kecil_source_text": "1.245.377"
+    },
+    {
+      "provinsi": "SUMATERA UTARA",
+      "mikro": 7723216,
+      "kecil": 2265391,
+      "mikro_source_text": "7.723.216",
+      "kecil_source_text": "2.265.391"
+    },
+    {
+      "provinsi": "SUMATERA BARAT",
+      "mikro": 5192964,
+      "kecil": 1091151,
+      "mikro_source_text": "5.192.964",
+      "kecil_source_text": "1.091.151"
+    },
+    {
+      "provinsi": "RIAU",
+      "mikro": 3336124,
+      "kecil": 493666,
+      "mikro_source_text": "3.336.124",
+      "kecil_source_text": "493.666"
+    },
+    {
+      "provinsi": "JAMBI",
+      "mikro": 1533189,
+      "kecil": 609278,
+      "mikro_source_text": "1.533.189",
+      "kecil_source_text": "609.278"
+    },
+    {
+      "provinsi": "SUMATERA SELATAN",
+      "mikro": 4837117,
+      "kecil": 3536053,
+      "mikro_source_text": "4.837.117",
+      "kecil_source_text": "3.536.053"
+    },
+    {
+      "provinsi": "BENGKULU",
+      "mikro": 1093718,
+      "kecil": 227137,
+      "mikro_source_text": "1.093.718",
+      "kecil_source_text": "227.137"
+    },
+    {
+      "provinsi": "LAMPUNG",
+      "mikro": 4881435,
+      "kecil": 1922683,
+      "mikro_source_text": "4.881.435",
+      "kecil_source_text": "1.922.683"
+    },
+    {
+      "provinsi": "KEP. BANGKA BELITUNG",
+      "mikro": 959544,
+      "kecil": 250922,
+      "mikro_source_text": "959.544",
+      "kecil_source_text": "250.922"
+    },
+    {
+      "provinsi": "KEP. RIAU",
+      "mikro": 1342453,
+      "kecil": 76624,
+      "mikro_source_text": "1.342.453",
+      "kecil_source_text": "76.624"
+    },
+    {
+      "provinsi": "DKI JAKARTA",
+      "mikro": 14732366,
+      "kecil": 4798230,
+      "mikro_source_text": "14.732.366",
+      "kecil_source_text": "4.798.230"
+    },
+    {
+      "provinsi": "JAWA BARAT",
+      "mikro": 36674430,
+      "kecil": 45550494,
+      "mikro_source_text": "36.674.430",
+      "kecil_source_text": "45.550.494"
+    },
+    {
+      "provinsi": "JAWA TENGAH",
+      "mikro": 39176825,
+      "kecil": 20927073,
+      "mikro_source_text": "39.176.825",
+      "kecil_source_text": "20.927.073"
+    },
+    {
+      "provinsi": "DI YOGYAKARTA",
+      "mikro": 5071877,
+      "kecil": 1851119,
+      "mikro_source_text": "5.071.877",
+      "kecil_source_text": "1.851.119"
+    },
+    {
+      "provinsi": "JAWA TIMUR",
+      "mikro": 35601674,
+      "kecil": 24215740,
+      "mikro_source_text": "35.601.674",
+      "kecil_source_text": "24.215.740"
+    },
+    {
+      "provinsi": "BANTEN",
+      "mikro": 9018094,
+      "kecil": 3099738,
+      "mikro_source_text": "9.018.094",
+      "kecil_source_text": "3.099.738"
+    },
+    {
+      "provinsi": "BALI",
+      "mikro": 6144554,
+      "kecil": 1979354,
+      "mikro_source_text": "6.144.554",
+      "kecil_source_text": "1.979.354"
+    },
+    {
+      "provinsi": "NUSA TENGGARA BARAT",
+      "mikro": 3550964,
+      "kecil": 3328515,
+      "mikro_source_text": "3.550.964",
+      "kecil_source_text": "3.328.515"
+    },
+    {
+      "provinsi": "NUSA TENGGARA TIMUR",
+      "mikro": 2232190,
+      "kecil": 129897,
+      "mikro_source_text": "2.232.190",
+      "kecil_source_text": "129.897"
+    },
+    {
+      "provinsi": "KALIMANTAN BARAT",
+      "mikro": 1972953,
+      "kecil": 261017,
+      "mikro_source_text": "1.972.953",
+      "kecil_source_text": "261.017"
+    },
+    {
+      "provinsi": "KALIMANTAN TENGAH",
+      "mikro": 1058780,
+      "kecil": 224230,
+      "mikro_source_text": "1.058.780",
+      "kecil_source_text": "224.230"
+    },
+    {
+      "provinsi": "KALIMANTAN SELATAN",
+      "mikro": 2882280,
+      "kecil": 2271309,
+      "mikro_source_text": "2.882.280",
+      "kecil_source_text": "2.271.309"
+    },
+    {
+      "provinsi": "KALIMANTAN TIMUR",
+      "mikro": 2011199,
+      "kecil": 1176725,
+      "mikro_source_text": "2.011.199",
+      "kecil_source_text": "1.176.725"
+    },
+    {
+      "provinsi": "KALIMANTAN UTARA",
+      "mikro": 327928,
+      "kecil": 84140,
+      "mikro_source_text": "327.928",
+      "kecil_source_text": "84.140"
+    },
+    {
+      "provinsi": "SULAWESI UTARA",
+      "mikro": 1640956,
+      "kecil": 241060,
+      "mikro_source_text": "1.640.956",
+      "kecil_source_text": "241.060"
+    },
+    {
+      "provinsi": "SULAWESI TENGAH",
+      "mikro": 2988325,
+      "kecil": 1053923,
+      "mikro_source_text": "2.988.325",
+      "kecil_source_text": "1.053.923"
+    },
+    {
+      "provinsi": "SULAWESI SELATAN",
+      "mikro": 4628676,
+      "kecil": 4467578,
+      "mikro_source_text": "4.628.676",
+      "kecil_source_text": "4.467.578"
+    },
+    {
+      "provinsi": "SULAWESI TENGGARA",
+      "mikro": 5202777,
+      "kecil": 2946194,
+      "mikro_source_text": "5.202.777",
+      "kecil_source_text": "2.946.194"
+    },
+    {
+      "provinsi": "GORONTALO",
+      "mikro": 743682,
+      "kecil": 102476,
+      "mikro_source_text": "743.682",
+      "kecil_source_text": "102.476"
+    },
+    {
+      "provinsi": "SULAWESI BARAT",
+      "mikro": 558918,
+      "kecil": 328140,
+      "mikro_source_text": "558.918",
+      "kecil_source_text": "328.140"
+    },
+    {
+      "provinsi": "MALUKU",
+      "mikro": 871868,
+      "kecil": 29409,
+      "mikro_source_text": "871.868",
+      "kecil_source_text": "29.409"
+    },
+    {
+      "provinsi": "MALUKU UTARA",
+      "mikro": 609340,
+      "kecil": 103292,
+      "mikro_source_text": "609.340",
+      "kecil_source_text": "103.292"
+    },
+    {
+      "provinsi": "PAPUA BARAT",
+      "mikro": 106721,
+      "kecil": 26468,
+      "mikro_source_text": "106.721",
+      "kecil_source_text": "26.468"
+    },
+    {
+      "provinsi": "PAPUA BARAT DAYA",
+      "mikro": 153642,
+      "kecil": 11472,
+      "mikro_source_text": "153.642",
+      "kecil_source_text": "11.472"
+    },
+    {
+      "provinsi": "PAPUA",
+      "mikro": 312786,
+      "kecil": 34630,
+      "mikro_source_text": "312.786",
+      "kecil_source_text": "34.630"
+    },
+    {
+      "provinsi": "PAPUA SELATAN",
+      "mikro": 324669,
+      "kecil": 1811,
+      "mikro_source_text": "324.669",
+      "kecil_source_text": "1.811"
+    },
+    {
+      "provinsi": "PAPUA TENGAH",
+      "mikro": 157287,
+      "kecil": 47891,
+      "mikro_source_text": "157.287",
+      "kecil_source_text": "47.891"
+    },
+    {
+      "provinsi": "PAPUA PEGUNUNGAN",
+      "mikro": 29791,
+      "kecil": 15755,
+      "mikro_source_text": "29.791",
+      "kecil_source_text": "15.755"
+    },
+    {
+      "provinsi": "INDONESIA",
+      "mikro": 213686026,
+      "kecil": 131025961,
+      "mikro_source_text": "213.686.026",
+      "kecil_source_text": "131.025.961"
+    }
+  ]
+}

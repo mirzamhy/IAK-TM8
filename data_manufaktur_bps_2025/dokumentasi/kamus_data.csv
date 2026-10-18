@@ -1,0 +1,10 @@
+﻿kolom,tipe,satuan,keterangan
+kode_wilayah_bps,string,,Kode dimensi wilayah BPS empat digit; 9999 untuk Indonesia
+provinsi,string,,Nama wilayah sebagaimana tabel BPS
+tahun,integer,tahun,"Tahun data, bukan tahun pembaruan publikasi"
+skala,string,,Mikro atau Kecil; jangan menggabungkan dengan skala besar/sedang
+jumlah_perusahaan,integer,Unit,Nilai sumber BPS; pertahankan satuan saat menghitung indikator
+tenaga_kerja,integer,Orang,Nilai sumber BPS; pertahankan satuan saat menghitung indikator
+nilai_input_juta_rupiah,integer,Juta Rupiah,Nilai sumber BPS; pertahankan satuan saat menghitung indikator
+nilai_output_juta_rupiah,integer,Juta Rupiah,Nilai sumber BPS; pertahankan satuan saat menghitung indikator
+pengeluaran_tenaga_kerja_juta_rupiah,integer,Juta Rupiah,Nilai sumber BPS; pertahankan satuan saat menghitung indikator

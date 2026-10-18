@@ -1,0 +1,200 @@
+{
+  "source": "Dimensi wilayah tabel BPS 440, diekstrak saat pengambilan data. Hanya kode dan nama; nilai indikator tidak diambil dari hasil gabungan.",
+  "regions": [
+    {
+      "code": "1100",
+      "name": "ACEH",
+      "is_nasional": false
+    },
+    {
+      "code": "1200",
+      "name": "SUMATERA UTARA",
+      "is_nasional": false
+    },
+    {
+      "code": "1300",
+      "name": "SUMATERA BARAT",
+      "is_nasional": false
+    },
+    {
+      "code": "1400",
+      "name": "RIAU",
+      "is_nasional": false
+    },
+    {
+      "code": "1500",
+      "name": "JAMBI",
+      "is_nasional": false
+    },
+    {
+      "code": "1600",
+      "name": "SUMATERA SELATAN",
+      "is_nasional": false
+    },
+    {
+      "code": "1700",
+      "name": "BENGKULU",
+      "is_nasional": false
+    },
+    {
+      "code": "1800",
+      "name": "LAMPUNG",
+      "is_nasional": false
+    },
+    {
+      "code": "1900",
+      "name": "KEP. BANGKA BELITUNG",
+      "is_nasional": false
+    },
+    {
+      "code": "2100",
+      "name": "KEP. RIAU",
+      "is_nasional": false
+    },
+    {
+      "code": "3100",
+      "name": "DKI JAKARTA",
+      "is_nasional": false
+    },
+    {
+      "code": "3200",
+      "name": "JAWA BARAT",
+      "is_nasional": false
+    },
+    {
+      "code": "3300",
+      "name": "JAWA TENGAH",
+      "is_nasional": false
+    },
+    {
+      "code": "3400",
+      "name": "DI YOGYAKARTA",
+      "is_nasional": false
+    },
+    {
+      "code": "3500",
+      "name": "JAWA TIMUR",
+      "is_nasional": false
+    },
+    {
+      "code": "3600",
+      "name": "BANTEN",
+      "is_nasional": false
+    },
+    {
+      "code": "5100",
+      "name": "BALI",
+      "is_nasional": false
+    },
+    {
+      "code": "5200",
+      "name": "NUSA TENGGARA BARAT",
+      "is_nasional": false
+    },
+    {
+      "code": "5300",
+      "name": "NUSA TENGGARA TIMUR",
+      "is_nasional": false
+    },
+    {
+      "code": "6100",
+      "name": "KALIMANTAN BARAT",
+      "is_nasional": false
+    },
+    {
+      "code": "6200",
+      "name": "KALIMANTAN TENGAH",
+      "is_nasional": false
+    },
+    {
+      "code": "6300",
+      "name": "KALIMANTAN SELATAN",
+      "is_nasional": false
+    },
+    {
+      "code": "6400",
+      "name": "KALIMANTAN TIMUR",
+      "is_nasional": false
+    },
+    {
+      "code": "6500",
+      "name": "KALIMANTAN UTARA",
+      "is_nasional": false
+    },
+    {
+      "code": "7100",
+      "name": "SULAWESI UTARA",
+      "is_nasional": false
+    },
+    {
+      "code": "7200",
+      "name": "SULAWESI TENGAH",
+      "is_nasional": false
+    },
+    {
+      "code": "7300",
+      "name": "SULAWESI SELATAN",
+      "is_nasional": false
+    },
+    {
+      "code": "7400",
+      "name": "SULAWESI TENGGARA",
+      "is_nasional": false
+    },
+    {
+      "code": "7500",
+      "name": "GORONTALO",
+      "is_nasional": false
+    },
+    {
+      "code": "7600",
+      "name": "SULAWESI BARAT",
+      "is_nasional": false
+    },
+    {
+      "code": "8100",
+      "name": "MALUKU",
+      "is_nasional": false
+    },
+    {
+      "code": "8200",
+      "name": "MALUKU UTARA",
+      "is_nasional": false
+    },
+    {
+      "code": "9100",
+      "name": "PAPUA BARAT",
+      "is_nasional": false
+    },
+    {
+      "code": "9200",
+      "name": "PAPUA BARAT DAYA",
+      "is_nasional": false
+    },
+    {
+      "code": "9400",
+      "name": "PAPUA",
+      "is_nasional": false
+    },
+    {
+      "code": "9500",
+      "name": "PAPUA SELATAN",
+      "is_nasional": false
+    },
+    {
+      "code": "9600",
+      "name": "PAPUA TENGAH",
+      "is_nasional": false
+    },
+    {
+      "code": "9700",
+      "name": "PAPUA PEGUNUNGAN",
+      "is_nasional": false
+    },
+    {
+      "code": "9999",
+      "name": "INDONESIA",
+      "is_nasional": true
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "source_folder": "data_manufaktur_bps_2021_2025",
+  "datasets": [
+    {
+      "id": 440,
+      "column": "jumlah_perusahaan",
+      "unit": "Unit",
+      "file": "raw_native/440_jumlah_perusahaan_2021.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQwIzI%3D/jumlah-perusahaan-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2021
+    },
+    {
+      "id": 441,
+      "column": "tenaga_kerja",
+      "unit": "Orang",
+      "file": "raw_native/441_tenaga_kerja_2021.xlsx",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQxIzI%3D/jumlah-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2021
+    },
+    {
+      "id": 442,
+      "column": "nilai_input_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_json/442_nilai_input_2021.json",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQyIzI%3D/nilai-input-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "method": "Scraping tabel yang terlihat melalui MCP browser; bukan respons WebAPI",
+      "year": 2021
+    },
+    {
+      "id": 443,
+      "column": "nilai_output_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_native/443_nilai_output_2021.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQzIzI%3D/nilai-output-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2021
+    },
+    {
+      "id": 446,
+      "column": "pengeluaran_tenaga_kerja_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_native/446_pengeluaran_tenaga_kerja_2021.xlsx",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQ2IzI%3D/pengeluaran-untuk-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi-juta-rupiah.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2021
+    },
+    {
+      "id": 440,
+      "column": "jumlah_perusahaan",
+      "unit": "Unit",
+      "file": "raw_native/440_jumlah_perusahaan_2022.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQwIzI%3D/jumlah-perusahaan-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2022
+    },
+    {
+      "id": 441,
+      "column": "tenaga_kerja",
+      "unit": "Orang",
+      "file": "raw_native/441_tenaga_kerja_2022.xlsx",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQxIzI%3D/jumlah-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2022
+    },
+    {
+      "id": 442,
+      "column": "nilai_input_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_json/442_nilai_input_2022.json",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQyIzI%3D/nilai-input-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "method": "Scraping tabel yang terlihat melalui MCP browser; bukan respons WebAPI",
+      "year": 2022
+    },
+    {
+      "id": 443,
+      "column": "nilai_output_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_native/443_nilai_output_2022.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQzIzI%3D/nilai-output-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2022
+    },
+    {
+      "id": 446,
+      "column": "pengeluaran_tenaga_kerja_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_native/446_pengeluaran_tenaga_kerja_2022.xlsx",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQ2IzI%3D/pengeluaran-untuk-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi-juta-rupiah.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2022
+    },
+    {
+      "id": 440,
+      "column": "jumlah_perusahaan",
+      "unit": "Unit",
+      "file": "raw_native/440_jumlah_perusahaan_2023.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQwIzI%3D/jumlah-perusahaan-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2023
+    },
+    {
+      "id": 441,
+      "column": "tenaga_kerja",
+      "unit": "Orang",
+      "file": "raw_native/441_tenaga_kerja_2023.xlsx",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQxIzI%3D/jumlah-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2023
+    },
+    {
+      "id": 442,
+      "column": "nilai_input_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_json/442_nilai_input_2023.json",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQyIzI%3D/nilai-input-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "method": "Scraping tabel yang terlihat melalui MCP browser; bukan respons WebAPI",
+      "year": 2023
+    },
+    {
+      "id": 443,
+      "column": "nilai_output_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_native/443_nilai_output_2023.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQzIzI%3D/nilai-output-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2023
+    },
+    {
+      "id": 446,
+      "column": "pengeluaran_tenaga_kerja_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_native/446_pengeluaran_tenaga_kerja_2023.xlsx",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQ2IzI%3D/pengeluaran-untuk-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi-juta-rupiah.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2023
+    },
+    {
+      "id": 440,
+      "column": "jumlah_perusahaan",
+      "unit": "Unit",
+      "file": "raw_native/440_jumlah_perusahaan_2024.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQwIzI%3D/jumlah-perusahaan-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2024
+    },
+    {
+      "id": 441,
+      "column": "tenaga_kerja",
+      "unit": "Orang",
+      "file": "raw_native/441_tenaga_kerja_2024.xlsx",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQxIzI%3D/jumlah-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2024
+    },
+    {
+      "id": 442,
+      "column": "nilai_input_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_json/442_nilai_input_2024.json",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQyIzI%3D/nilai-input-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "method": "Scraping tabel yang terlihat melalui MCP browser; bukan respons WebAPI",
+      "year": 2024
+    },
+    {
+      "id": 443,
+      "column": "nilai_output_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_native/443_nilai_output_2024.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQzIzI%3D/nilai-output-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2024
+    },
+    {
+      "id": 446,
+      "column": "pengeluaran_tenaga_kerja_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_native/446_pengeluaran_tenaga_kerja_2024.xlsx",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQ2IzI%3D/pengeluaran-untuk-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi-juta-rupiah.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2024
+    },
+    {
+      "id": 440,
+      "column": "jumlah_perusahaan",
+      "unit": "Unit",
+      "file": "raw_native/440_jumlah_perusahaan_2025.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQwIzI%3D/jumlah-perusahaan-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2025
+    },
+    {
+      "id": 441,
+      "column": "tenaga_kerja",
+      "unit": "Orang",
+      "file": "raw_native/441_tenaga_kerja_2025.xlsx",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQxIzI%3D/jumlah-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2025
+    },
+    {
+      "id": 442,
+      "column": "nilai_input_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_json/442_nilai_input_2025.json",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQyIzI%3D/nilai-input-industri-skala-mikro-dan-kecil-menurut-provinsi.html",
+      "method": "Scraping tabel yang terlihat melalui MCP browser; bukan respons WebAPI",
+      "year": 2025
+    },
+    {
+      "id": 443,
+      "column": "nilai_output_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_native/443_nilai_output_2025.csv",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQzIzI%3D/nilai-output-menurut-provinsi.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2025
+    },
+    {
+      "id": 446,
+      "column": "pengeluaran_tenaga_kerja_juta_rupiah",
+      "unit": "Juta Rupiah",
+      "file": "raw_native/446_pengeluaran_tenaga_kerja_2025.xlsx",
+      "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQ2IzI%3D/pengeluaran-untuk-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi-juta-rupiah.html",
+      "method": "Unduhan asli menu Unduh BPS melalui MCP browser, tanpa mengubah file",
+      "year": 2025
+    }
+  ],
+  "coverage_rules": {
+    "2021": {
+      "9200": {
+        "status": "belum_terpisah",
+        "parent": "9100"
+      },
+      "9500": {
+        "status": "belum_terpisah",
+        "parent": "9400"
+      },
+      "9600": {
+        "status": "belum_terpisah",
+        "parent": "9400"
+      },
+      "9700": {
+        "status": "belum_terpisah",
+        "parent": "9400"
+      },
+      "9100": {
+        "status": "induk_sebelum_pemekaran"
+      },
+      "9400": {
+        "status": "induk_sebelum_pemekaran"
+      }
+    },
+    "2022": {
+      "9200": {
+        "status": "belum_terpisah",
+        "parent": "9100"
+      },
+      "9500": {
+        "status": "belum_terpisah",
+        "parent": "9400"
+      },
+      "9600": {
+        "status": "belum_terpisah",
+        "parent": "9400"
+      },
+      "9700": {
+        "status": "belum_terpisah",
+        "parent": "9400"
+      },
+      "9100": {
+        "status": "induk_sebelum_pemekaran"
+      },
+      "9400": {
+        "status": "induk_sebelum_pemekaran"
+      }
+    },
+    "2023": {
+      "9200": {
+        "status": "belum_terpisah",
+        "parent": "9100"
+      },
+      "9500": {
+        "status": "belum_terpisah",
+        "parent": "9400"
+      },
+      "9600": {
+        "status": "belum_terpisah",
+        "parent": "9400"
+      },
+      "9700": {
+        "status": "belum_terpisah",
+        "parent": "9400"
+      },
+      "9100": {
+        "status": "induk_sebelum_pemekaran"
+      },
+      "9400": {
+        "status": "induk_sebelum_pemekaran"
+      }
+    }
+  },
+  "coverage_note": "2021 empat wilayah baru ditampilkan -; 2022-2023 ditampilkan0. Catatan BPS2023 mencakup wilayah baru pada induknya. Nol tersebut dipertahankan di fakta sumber namun tidak diartikan pengukuran tersendiri. Tren sebanding menggabungkan Papua2024-2025 kembali ke cakupan induk."
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "id": 443,
+    "year": 2021,
+    "file": "raw_native/443_nilai_output_2021.csv",
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQzIzI%3D/nilai-output-menurut-provinsi.html",
+    "last_updated": "16 September 2026",
+    "retrieved_date": "2026-10-18",
+    "method": "Unduhan asli menu Unduh BPS melalui MCP browser. Sebagian unduhan disimpan browser sebagai GUID.tmp; byte asli disalin tanpa konversi setelah pemeriksaan judul dan tahun.",
+    "sha256": "50a00ffbd5033aa802b095c4af2948f6a51322f59824013ca755249f43731fd4",
+    "notes": [
+      "Sumber: Survei IMK Tahunan; 2021-sekarang KBLI 2020.",
+      "Catatan sumber: 2023 Papua Barat mencakup Papua Barat Daya; Papua mencakup Papua Selatan, Papua Tengah, Papua Pegunungan.",
+      "Angka 0 atau tanda - pada empat provinsi baru tahun 2021-2023 tidak dapat ditafsirkan sebagai tidak ada aktivitas; raw dipertahankan, analisis harus menandai cakupan historis."
+    ]
+  },
+  {
+    "id": 443,
+    "year": 2022,
+    "file": "raw_native/443_nilai_output_2022.csv",
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQzIzI%3D/nilai-output-menurut-provinsi.html",
+    "last_updated": "16 September 2026",
+    "retrieved_date": "2026-10-18",
+    "method": "Unduhan asli menu Unduh BPS melalui MCP browser. Sebagian unduhan disimpan browser sebagai GUID.tmp; byte asli disalin tanpa konversi setelah pemeriksaan judul dan tahun.",
+    "sha256": "259af02bc8a41d72dcb11283822cbb7733ab4efc0b6907f2de853dc65c3a4fbb",
+    "notes": [
+      "Sumber: Survei IMK Tahunan; 2021-sekarang KBLI 2020.",
+      "Catatan sumber: 2023 Papua Barat mencakup Papua Barat Daya; Papua mencakup Papua Selatan, Papua Tengah, Papua Pegunungan.",
+      "Angka 0 atau tanda - pada empat provinsi baru tahun 2021-2023 tidak dapat ditafsirkan sebagai tidak ada aktivitas; raw dipertahankan, analisis harus menandai cakupan historis."
+    ]
+  },
+  {
+    "id": 443,
+    "year": 2023,
+    "file": "raw_native/443_nilai_output_2023.csv",
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQzIzI%3D/nilai-output-menurut-provinsi.html",
+    "last_updated": "16 September 2026",
+    "retrieved_date": "2026-10-18",
+    "method": "Unduhan asli menu Unduh BPS melalui MCP browser. Sebagian unduhan disimpan browser sebagai GUID.tmp; byte asli disalin tanpa konversi setelah pemeriksaan judul dan tahun.",
+    "sha256": "8afabeb4bb7d9ab8fcbcc924b202ea67989484f648e5625bed723198b0888d6a",
+    "notes": [
+      "Sumber: Survei IMK Tahunan; 2021-sekarang KBLI 2020.",
+      "Catatan sumber: 2023 Papua Barat mencakup Papua Barat Daya; Papua mencakup Papua Selatan, Papua Tengah, Papua Pegunungan.",
+      "Angka 0 atau tanda - pada empat provinsi baru tahun 2021-2023 tidak dapat ditafsirkan sebagai tidak ada aktivitas; raw dipertahankan, analisis harus menandai cakupan historis."
+    ]
+  },
+  {
+    "id": 443,
+    "year": 2024,
+    "file": "raw_native/443_nilai_output_2024.csv",
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQzIzI%3D/nilai-output-menurut-provinsi.html",
+    "last_updated": "16 September 2026",
+    "retrieved_date": "2026-10-18",
+    "method": "Unduhan asli menu Unduh BPS melalui MCP browser. Sebagian unduhan disimpan browser sebagai GUID.tmp; byte asli disalin tanpa konversi setelah pemeriksaan judul dan tahun.",
+    "sha256": "151b8f072369bd66262ec214740c721b33445314c7a487f7e3ce7ee5fe84afca",
+    "notes": [
+      "Sumber: Survei IMK Tahunan; 2021-sekarang KBLI 2020.",
+      "Catatan sumber: 2023 Papua Barat mencakup Papua Barat Daya; Papua mencakup Papua Selatan, Papua Tengah, Papua Pegunungan.",
+      "Angka 0 atau tanda - pada empat provinsi baru tahun 2021-2023 tidak dapat ditafsirkan sebagai tidak ada aktivitas; raw dipertahankan, analisis harus menandai cakupan historis."
+    ]
+  },
+  {
+    "id": 443,
+    "year": 2025,
+    "file": "raw_native/443_nilai_output_2025.csv",
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQzIzI%3D/nilai-output-menurut-provinsi.html",
+    "last_updated": "16 September 2026",
+    "retrieved_date": "2026-10-18",
+    "method": "Unduhan asli menu Unduh BPS melalui MCP browser. Sebagian unduhan disimpan browser sebagai GUID.tmp; byte asli disalin tanpa konversi setelah pemeriksaan judul dan tahun.",
+    "sha256": "c315a3fe5ac210d8dd4c34e2e6becc0ec365a23b059f152eea6aa18e503b5a19",
+    "notes": [
+      "Sumber: Survei IMK Tahunan; 2021-sekarang KBLI 2020.",
+      "Catatan sumber: 2023 Papua Barat mencakup Papua Barat Daya; Papua mencakup Papua Selatan, Papua Tengah, Papua Pegunungan.",
+      "Angka 0 atau tanda - pada empat provinsi baru tahun 2021-2023 tidak dapat ditafsirkan sebagai tidak ada aktivitas; raw dipertahankan, analisis harus menandai cakupan historis."
+    ]
+  },
+  {
+    "id": 446,
+    "year": 2021,
+    "file": "raw_native/446_pengeluaran_tenaga_kerja_2021.xlsx",
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQ2IzI%3D/pengeluaran-untuk-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi-juta-rupiah.html",
+    "last_updated": "16 September 2026",
+    "retrieved_date": "2026-10-18",
+    "method": "Unduhan asli menu Unduh BPS melalui MCP browser. Sebagian unduhan disimpan browser sebagai GUID.tmp; byte asli disalin tanpa konversi setelah pemeriksaan judul dan tahun.",
+    "sha256": "c1d6f6dbcca006319d27c0b91edda2e7c8c919671c9ce0463c4b4e94dbe04aef",
+    "notes": [
+      "Sumber: Survei IMK Tahunan; 2021-sekarang KBLI 2020.",
+      "Catatan sumber: 2023 Papua Barat mencakup Papua Barat Daya; Papua mencakup Papua Selatan, Papua Tengah, Papua Pegunungan.",
+      "Angka 0 atau tanda - pada empat provinsi baru tahun 2021-2023 tidak dapat ditafsirkan sebagai tidak ada aktivitas; raw dipertahankan, analisis harus menandai cakupan historis."
+    ]
+  },
+  {
+    "id": 446,
+    "year": 2022,
+    "file": "raw_native/446_pengeluaran_tenaga_kerja_2022.xlsx",
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQ2IzI%3D/pengeluaran-untuk-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi-juta-rupiah.html",
+    "last_updated": "16 September 2026",
+    "retrieved_date": "2026-10-18",
+    "method": "Unduhan asli menu Unduh BPS melalui MCP browser. Sebagian unduhan disimpan browser sebagai GUID.tmp; byte asli disalin tanpa konversi setelah pemeriksaan judul dan tahun.",
+    "sha256": "b5d934d9583e94373651fa620b1163206ad6947e59a0c4ba554aed2be1bf1095",
+    "notes": [
+      "Sumber: Survei IMK Tahunan; 2021-sekarang KBLI 2020.",
+      "Catatan sumber: 2023 Papua Barat mencakup Papua Barat Daya; Papua mencakup Papua Selatan, Papua Tengah, Papua Pegunungan.",
+      "Angka 0 atau tanda - pada empat provinsi baru tahun 2021-2023 tidak dapat ditafsirkan sebagai tidak ada aktivitas; raw dipertahankan, analisis harus menandai cakupan historis."
+    ]
+  },
+  {
+    "id": 446,
+    "year": 2023,
+    "file": "raw_native/446_pengeluaran_tenaga_kerja_2023.xlsx",
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQ2IzI%3D/pengeluaran-untuk-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi-juta-rupiah.html",
+    "last_updated": "16 September 2026",
+    "retrieved_date": "2026-10-18",
+    "method": "Unduhan asli menu Unduh BPS melalui MCP browser. Sebagian unduhan disimpan browser sebagai GUID.tmp; byte asli disalin tanpa konversi setelah pemeriksaan judul dan tahun.",
+    "sha256": "022ce3b1f2af86c6ee654df5e0cf8bef72041dd8c40f37f3249ee29fed80bd57",
+    "notes": [
+      "Sumber: Survei IMK Tahunan; 2021-sekarang KBLI 2020.",
+      "Catatan sumber: 2023 Papua Barat mencakup Papua Barat Daya; Papua mencakup Papua Selatan, Papua Tengah, Papua Pegunungan.",
+      "Angka 0 atau tanda - pada empat provinsi baru tahun 2021-2023 tidak dapat ditafsirkan sebagai tidak ada aktivitas; raw dipertahankan, analisis harus menandai cakupan historis."
+    ]
+  },
+  {
+    "id": 446,
+    "year": 2024,
+    "file": "raw_native/446_pengeluaran_tenaga_kerja_2024.xlsx",
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQ2IzI%3D/pengeluaran-untuk-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi-juta-rupiah.html",
+    "last_updated": "16 September 2026",
+    "retrieved_date": "2026-10-18",
+    "method": "Unduhan asli menu Unduh BPS melalui MCP browser. Sebagian unduhan disimpan browser sebagai GUID.tmp; byte asli disalin tanpa konversi setelah pemeriksaan judul dan tahun.",
+    "sha256": "332e17cdc6c526cf1adcef32e4563ee92b1ea450784aad95c743dc70873edb9e",
+    "notes": [
+      "Sumber: Survei IMK Tahunan; 2021-sekarang KBLI 2020.",
+      "Catatan sumber: 2023 Papua Barat mencakup Papua Barat Daya; Papua mencakup Papua Selatan, Papua Tengah, Papua Pegunungan.",
+      "Angka 0 atau tanda - pada empat provinsi baru tahun 2021-2023 tidak dapat ditafsirkan sebagai tidak ada aktivitas; raw dipertahankan, analisis harus menandai cakupan historis."
+    ]
+  },
+  {
+    "id": 446,
+    "year": 2025,
+    "file": "raw_native/446_pengeluaran_tenaga_kerja_2025.xlsx",
+    "source_url": "https://www.bps.go.id/id/statistics-table/2/NDQ2IzI%3D/pengeluaran-untuk-tenaga-kerja-industri-skala-mikro-dan-kecil-menurut-provinsi-juta-rupiah.html",
+    "last_updated": "16 September 2026",
+    "retrieved_date": "2026-10-18",
+    "method": "Unduhan asli menu Unduh BPS melalui MCP browser. Sebagian unduhan disimpan browser sebagai GUID.tmp; byte asli disalin tanpa konversi setelah pemeriksaan judul dan tahun.",
+    "sha256": "235332766db9080d7dd3949db748dc52dde75f33e02968bfe9360703a0df1825",
+    "notes": [
+      "Sumber: Survei IMK Tahunan; 2021-sekarang KBLI 2020.",
+      "Catatan sumber: 2023 Papua Barat mencakup Papua Barat Daya; Papua mencakup Papua Selatan, Papua Tengah, Papua Pegunungan.",
+      "Angka 0 atau tanda - pada empat provinsi baru tahun 2021-2023 tidak dapat ditafsirkan sebagai tidak ada aktivitas; raw dipertahankan, analisis harus menandai cakupan historis."
+    ]
+  }
+]
