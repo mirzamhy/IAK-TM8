@@ -22,7 +22,20 @@ data_manufaktur_bps_2025/        paket awal tahun 2025
 etl/                             ETL versi Python
 pentaho_sederhana/               ETL versi Pentaho, satu transformation per tabel
 pentaho/                         ETL versi Pentaho dalam satu job dengan sinkronisasi dan log perubahan
+web/                             website dashboard (Next.js) dengan login dan visualisasi
 ```
+
+## Dashboard
+
+Website di folder `web/` membaca `pentaho_sederhana/manufaktur.sqlite`. Jalankan ETL Pentaho dulu, lalu:
+
+```
+cd web
+npm install
+npm run dev
+```
+
+Buka http://localhost:3000 dan masuk dengan akun demo `admin` / `admin123`. Detail teknologi dan halaman ada di `web/README.md`.
 
 ## Menjalankan ETL Pentaho (versi sederhana)
 
